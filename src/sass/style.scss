@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Asap', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'blocks/social';
+@import 'blocks/header';
+@import 'blocks/title';
+@import 'blocks/promo';
+@import 'blocks/btn';

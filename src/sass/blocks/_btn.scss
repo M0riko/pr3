@@ -1,0 +1,20 @@
+.btn {
+        display: block;
+        width: 104px;
+        height: 35px;
+        background: #B4141B;
+        text-align: center;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 23px;
+        color: white;
+        text-decoration: none;
+        &_big {
+            padding-top: 23px;
+            width: 284px;
+            height: 74px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 23px;
+        }
+}

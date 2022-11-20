@@ -1,0 +1,21 @@
+.social {
+    background-color: #0E77AF;
+    height: 40px;
+        display: flex;
+        align-items: center;
+        .container{
+            display: flex;
+            justify-content: space-between;
+        }
+    &__soc {
+        a {
+            margin-right: 5px;
+        }
+    }
+    &__email {
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
