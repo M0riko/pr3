@@ -9,12 +9,17 @@
         line-height: 23px;
         color: white;
         text-decoration: none;
+        transition: .5s all;
         &_big {
-            padding-top: 23px;
+            padding-top: 25px;
             width: 284px;
             height: 74px;
             font-weight: 700;
             font-size: 24px;
             line-height: 23px;
+        }
+        &:hover {
+            transform: scale(1.05);
+            border: 2px solid black;
         }
 }
